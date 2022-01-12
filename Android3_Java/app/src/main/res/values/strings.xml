@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Devoir 4-Tatyana Sharlandzhieva</string>
+    <string name="select">Sélectionnez un manège pour obtenir ses informations.</string>
+
+    <string-array name="maneges">
+        <item>Superman the Ride</item>
+        <item>Nitro</item>
+        <item>Ride of Steel</item>
+        <item>Viking Voyage</item>
+        <item>Kingda Ka</item>
+    </string-array>
+
+    <string-array name="urls">
+        <item>1080</item>
+        <item>1106</item>
+        <item>1541</item>
+        <item>12345</item>
+        <item>111111</item>
+    </string-array>
+</resources>
