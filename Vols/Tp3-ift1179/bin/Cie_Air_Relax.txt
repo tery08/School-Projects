@@ -1,0 +1,4 @@
+1 14567 Toronto              12 04 2002 167
+2 17890 Guadeloupe           01 05 2002 340
+3 19012 Nouvelle-Orléans     03 05 2002 250
+4 22345 Martinique           25 04 2002 337
