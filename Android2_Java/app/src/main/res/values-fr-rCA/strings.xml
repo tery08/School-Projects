@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Devoir 3-Tatyana Sharlandzhieva</string>
+    <string name="name">Nom</string>
+    <string name="password">Mot de passe</string>
+    <string name="res2">Veuillez soumettre la bonne information dans les deux champs</string>
+    <string name="submit">Soumettre</string>
+    <string name="missInfo">Information manquante ou mot de passe inccorect</string>
+    <string name="clear">Initialiser</string>
+    <string name="note">La note pour la présentation est:</string>
+    <string name="back">Retour</string>
+    <string name="welcome">Bienvenue</string>
+    <string name="appreciation">"Entrez votre appréciation de 0 à 3: "</string>
+    <string name="backList">Retour vers lal liste</string>
+    <string name="choose">Choisissez un nom</string>
+    <string name="backReg">Retour au début</string>
+</resources>

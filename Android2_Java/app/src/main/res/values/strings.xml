@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Homework 3-Tatyana Sharlandzhieva</string>
+    <string-array name="noms_array">
+        <item>Tatyana Sharlandzhieva</item>
+        <item>Bilbo Baggins</item>
+        <item>Anakin Skywalker</item>
+    </string-array>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="res2">Please submit the correct information in both fields</string>
+    <string name="submit">Submit</string>
+    <string name="missInfo">Missing information or inccorect password</string>
+    <string name="clear">Clear</string>
+    <string name="note">The note for the presentation is:</string>
+    <string name="back">Back</string>
+    <string name="welcome">Welcome</string>
+    <string name="appreciation">Enter your rating from 0 to 3:</string>
+    <string name="backList">Back to the list</string>
+    <string name="choose">Choose a name</string>
+    <string name="backReg">Back to Register</string>
+</resources>
