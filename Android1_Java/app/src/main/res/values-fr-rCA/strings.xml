@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">tp2</string>
+    <string name="msg">gagne!</string>
+    <string name="nouveau">REJOUER</string>
+    <string name="nulle">Partie nulle!</string>
+</resources>

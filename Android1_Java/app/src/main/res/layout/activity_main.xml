@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="TIC TAC TOE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ticTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/laTable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.838" />
+
+    <TableLayout
+        android:id="@+id/laTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="102dp"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetRight="5dp"
+                android:onClick="choix"
+                android:shadowColor="#E9EAEF"
+                app:elevation="2dp" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="103dp"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetRight="5dp"
+                android:onClick="choix" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="109dp"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetRight="5dp"
+                android:onClick="choix" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetRight="5dp"
+                android:onClick="choix" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetRight="5dp"
+                android:onClick="choix" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetRight="5dp"
+                android:onClick="choix" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetRight="6dp"
+                android:onClick="choix" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetRight="5dp"
+                android:onClick="choix" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:insetLeft="5dp"
+                android:insetRight="6dp"
+                android:onClick="choix" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/newGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="nouveau"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/laTable" />
+</androidx.constraintlayout.widget.ConstraintLayout>
