@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>previsions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
+	
+</head>
+   
+<body>	
+    <div class="conteneur">
+        <div class="header">
+            <h3 id="demo"></h3><h1 class="h"><b>météo </b></h1>
+			
+        </div> 
+	    <div class="nav">
+	        <table class="c">
+                <tr>
+                    <th><a href="../tp2.html" target="_blank">Accueil</a></th>
+                    <th><a >Prévisions</a></th> 
+                    <th><a href="commentaires.html" target="_blank">Commentaires</a></th>
+                </tr>
+			</table >        
+        </div>     
+	    <div id="x" class="main">
+		<div class="small">
+		<p id="demo"></p>
+	        <p style="margin-bottom:40px;letter-spacing:-0.1px;"> Prévisions météorologiques de 5 prochains jours pour la ville de <b>Montréal</b></p>
+			</div>
+			
+            <table class="prev" >
+                <tr >
+                    <td class="v">Lundi </td>
+	                <td class="v">Mardi </td>
+	                <td class="v">Mercredi </td>
+	                <td class="v">Jeudi </td>
+	                <td class="v">Vendredi </td>
+                </tr>
+                <tr >
+                    <td class="b"><img class="l" src="../images/soleil_1.jpg" alt="soleil"></td>
+	                <td class="b"><img class="l" src="../images/nuages_2.jpg" alt="nuages"></td>
+	                <td class="b"><img class="l" src="../images/nuages_2.jpg" alt="nuages"></td>
+	                <td class="b"><img class="l" src="../images/nuages_3.jpg" alt="nuages"></td>
+	                <td class="b"><img class="l" src="../images/soleil_2.jpg" alt="soleil"></td>
+	            </tr>
+                <tr >
+                    <td class="b">
+	                    <p class="u">Ciel voillé</p>
+	                    <p class="m">Min -15°C</p>
+	                    <p class="k">Max -10°C</p>
+	                </td>
+	                <td class="b">
+	                    <p class="u">Faible neige</p>
+	                    <p class="m">Min -10°C</p>
+	                    <p class="k">Max -5°C</p>
+	                </td>
+	                <td class="b">
+	                    <p class="u">Averse de neige</p>
+	                    <p class="m">Min -20°C</p>
+	                    <p class="k">Max -0°C</p>
+	                </td>
+	                <td class="b">
+	                    <p class="u">Nuage</p>
+	                    <p class="m">Min -20°C</p>
+	                    <p class="k">Max -10°C</p>
+	                </td>
+	                <td class="b">
+	                    <p class="u">Dégagé</p>
+	                    <p class="m">Min -31°C</p>
+	                    <p class="k">Max -20°C</p>
+	                </td>
+	            </tr>	
+            </table >
+			</div>
+        
+        <div class="footer">
+	        <table class="c">
+                <tr>
+                    <td class="d" rowspan="2"><a href="https://validator.w3.org/check?uri=referer" target="_blank"><img src="../images/valid_html_blue.png" alt="HTML"></a></td>
+                    <td id="k">Created by TS</td>
+                    <td id="i" class="d" rowspan="2" ><a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img src="../images/valid_css_blue.png" alt="CSS"></a></td>
+                </tr>                   
+                <tr>
+                    <!--<td id="f">https://www-desi.iro.umontreal.ca/~sharlant/tp2/tp2.html</td>-->     
+                </tr>
+            </table >	
+	    </div>
+	</div>
+	<script>
+	const d = new Date();
+	document.getElementById("demo").innerHTML = d.toDateString();
+	</script>
+</body>
+</html>
+  

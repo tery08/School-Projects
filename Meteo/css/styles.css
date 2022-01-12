@@ -1,0 +1,236 @@
+
+*{
+  box-sizing: border-box;
+}
+*
+body{
+	background-color: #99bbff;  
+}
+h1{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#FFFF00;
+  font-size:40px;
+  padding-bottom: 10px;
+  
+  text-align: center;
+}
+#demo{
+  color:#FFFF00;
+}
+a, td{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:1em;
+}
+th {
+  line-height: 140%;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:1em;
+  }
+
+/*Style de conteneur*/
+.conteneur{
+  width: 920px;
+  height: 100%;
+  margin:auto;
+}	
+
+/*Style de header*/
+ .header {
+    background-image: url("../images/nuages_708.jpg");
+    height: 101px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: left;
+ }
+ 
+/* Style de bar navigation */
+.nav {
+  width:100%;  
+  background-color: yellow;
+  height: 26px; 
+}
+
+/* Style des liens de navigation */
+.nav a {
+  color:#0000ff; 
+}
+.nav a:visited {
+  color:#ff3333; 
+  }
+  
+.nav a:hover {
+  background:white;
+  color:red;
+}
+.nav a:active {
+  color:white;
+  background:red;
+}
+
+/*Style de footer*/
+.footer {
+  background-color: #87CEFA;
+  width: 100%;
+  height: 71px; 
+}
+
+/* Style de tableau footer */
+table.c{
+  width: 100%;
+}
+td.d{
+  width: 20%; 
+  vertical-align:top; 
+  text-align: left;
+}
+#i{   
+text-align:right;  
+}
+#f{   
+ text-align:center; 
+ color: #a157f6;
+ text-decoration:underline;
+ }
+#k{   
+ text-align: center;
+ }
+
+/*style de main*/
+.main {
+  background-color: white;
+  height: 320px;
+  padding: 10px;
+}
+.r{   
+line-height: 0.3;  
+}
+
+ /*style de liens main page tp2*/ 
+.main a {
+  color:#ff3333;	  
+  text-decoration:none; 
+}
+.main a:visited {
+  color:#0000ff; 
+  }
+.main a:hover {
+  background:#ff0000;
+  color:white;
+  text-decoration: underline;
+  font-size:1.2em;
+}
+.main a:active {
+  color:#ff0000;
+  background:white;
+  text-decoration: underline;
+}
+
+/*style de source page tp2*/
+#t{
+  color: #9933ff;
+  text-decoration: underline; 
+}
+ #t:hover{
+  color:white;
+  background:#a157f6;
+  text-decoration: underline;
+}
+#t:active {
+  color:white;
+  background:black;
+  text-decoration: underline;
+}
+div.source {
+  line-height: 5.1;
+}
+
+/*style de list page tp2*/
+ul{
+  list-style-type: none;
+  padding: 0;
+  background-color:#e7e0eb;  
+  width:250px;
+  height:57px;
+  margin-left: 37px;
+  margin-top:23px;
+  padding-left: 65px;
+  text-align:left; 
+}
+
+/*style de main page previsions*/
+#x{
+  line-height: 1.3em; 
+}
+.small {
+  line-height: 0.6;
+}
+#small {
+  line-height: 0.7;
+}
+
+/*style de tableau page previsions*/
+table.prev {
+  border-collapse: collapse;
+  width:90%;
+  border: 1px solid black;
+  border-width: thick thick thin thin;
+  margin: auto;
+}
+
+/* style de la 1ere ligne de tableau page previsions*/
+td.v{
+  background-color:#33CCCC;
+  color:white;
+  width:20%;
+  text-align:center;
+  border-right:1px solid  white;
+  border-bottom:1px solid white;
+}
+
+/*style des images tableau page previsions*/
+.l{
+   width: 65px;
+   height:65px; 
+}
+
+/*style des celules de la 2e et 3e ligne de tableau previsions*/
+td.b{
+   border: 1px solid black; 
+   text-align:center; 
+}
+
+/* style de p dans la 3e ligne de tableau previsions*/
+p.m{
+  color:blue;
+  margin-top:0;
+  margin-bottom:0; 
+}
+p.k{
+  color:red;
+  margin-top:0;
+  margin-bottom:0;
+}
+.u{
+  margin-top:0; 
+}
+
+/*style de 1ere colonne de tableau page commentaires*/
+.e{
+  width: 177px;   
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .header, .main, .footer {
+    width: 100%;
+  }
+}
+
+
+
+
+

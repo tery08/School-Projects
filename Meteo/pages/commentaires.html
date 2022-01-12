@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>commentaires</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css"/>
+	
+</head>
+   
+<body>	
+    <div class="conteneur">
+        <div class="header">
+            <h1 class="h"><b>météo ift1144</b></h1>
+        </div> 
+	    <div class="nav">
+	        <table class="c">
+                <tr>
+                    <th><a href="../tp2.html" target="_blank">Accueil</a></th>
+                    <th ><a href="previsions.html" target="_blank" >Prévisions</a></th> 
+                    <th><a>Commentaires</a></th>
+                </tr>
+			</table >        
+        </div>     
+	    <div class="main">
+           <p style="margin-top:0.5em;margin-left:300px;font-weight: bold;">Envoyer nous vos commentaires.</p>
+		   <div class="small">
+           <form method="post" action="http://www.iro.umontreal.ca/~sharlant/cgi-bin/sharlant.cgi">
+		   <div style="margin-left:180px;">
+				<input type="radio" id="m" name="fav_language" value="M.">
+  				<label for="m">M.</label>
+  				<input type="radio" id="mme" name="fav_language" value="Mme">
+  				<label for="mme">Mme</label>
+			</div>
+			<br>
+                <table style="margin-left:5 px;">
+                    <tr>
+                        <td class="e">Nom </td>  
+                        <td> <input type="text" name="nom"></td>
+                    </tr>
+                    <tr>
+                        <td class="e">Adresse</td>  
+                        <td> <input type="text" name="adresse"></td>
+                    </tr>
+                    <tr>
+                        <td class="e">Commentaires </td> 
+                        <td><textarea name="commentaires"  cols="53" rows="5"></textarea></td>     
+                    </tr>
+                </table></br>                  
+				<p>Veuillez sélectionner les villes pour lesquelles vous avec consulter la météo au cours des 30 dernieres jours.</p>
+				<input type="checkbox" id="ville1" name="ville1" value="Montréal">
+				<label for="ville1"> Montréal</label>
+				<input type="checkbox" id="ville2" name="ville2" value="Québec">
+				<label for="ville2"> Québec</label>
+				<input type="checkbox" id="ville3" name="ville3" value="Toronto">
+				<label for="ville3"> Toronto</label>
+				<input type="checkbox" id="ville4" name="ville4" value="Vancouver">
+				<label for="ville4"> Vancouver</label>
+				<input type="checkbox" id="ville5" name="ville5" value="Brossard">
+				<label for="ville5"> Brossard</label></br></br>
+				<input style="margin-left:650px;text-shadow: 0.3px 0.3px black;" type="submit" value="Envoyer">
+                <input style="text-shadow: 0.3px 0.3px black;" type="reset" value="Effacer">
+            </form>
+			</div>
+        </div>	
+	    <div class="footer">
+	        <table class="c">
+                <tr>
+                    <td class="d" rowspan="2"><a href="https://validator.w3.org/check?uri=referer" target="_blank"><img src="../images/valid_html_blue.png" alt="HTML"></a></td>
+                    <td id="k">Created by TS</td>
+                    <td id="i" class="d" rowspan="2" ><a href="https://jigsaw.w3.org/css-validator/check/referer" target="_blank"><img src="../images/valid_css_blue.png" alt="CSS"></a></td>
+                </tr>                   
+                <tr>
+                    <!--<td id="f">https://www-desi.iro.umontreal.ca/~sharlant/tp2/tp2.html</td>-->     
+                </tr>
+            </table >	
+	    </div>
+	</div>
+</body>
+</html>
