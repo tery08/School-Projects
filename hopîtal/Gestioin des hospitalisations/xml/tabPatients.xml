@@ -1,0 +1,73 @@
+
+<listePatients>
+<patient>
+<dossier>1</dossier>
+<nom>Léger</nom>
+<prénom>Émile</prénom>
+<naissance>26 mars 1917</naissance>
+<sexe>M</sexe>
+</patient>
+<patient>
+<dossier>2</dossier>
+<nom>Bernard</nom>
+<prénom>Marie</prénom>
+<naissance>3 février 1946</naissance>
+<sexe>F</sexe>
+</patient>
+<patient>
+<dossier>3</dossier>
+<nom>Chartrand</nom>
+<prénom>Guy</prénom>
+<naissance>5 avril 1959</naissance>
+<sexe>M</sexe>
+</patient>
+<patient>
+<dossier>4</dossier>
+<nom>Côté</nom>
+<prénom>André</prénom>
+<naissance>2 septembre 1978</naissance>
+<sexe>M</sexe>
+</patient>
+<patient>
+<dossier>5</dossier>
+<nom>Lavoie</nom>
+<prénom>Carole</prénom>
+<naissance>4 novembre 1973</naissance>
+<sexe>F</sexe>
+</patient>
+<patient>
+<dossier>6</dossier>
+<nom>Martin</nom>
+<prénom>Diane</prénom>
+<naissance>2 décembre 1965</naissance>
+<sexe>F</sexe>
+</patient>
+<patient>
+<dossier>7</dossier>
+<nom>Lacroix</nom>
+<prénom>Pauline</prénom>
+<naissance>25 janvier 1956</naissance>
+<sexe>F</sexe>
+</patient>
+<patient>
+<dossier>8</dossier>
+<nom>St-Jean</nom>
+<prénom>Arthur</prénom>
+<naissance>7 octobre 1912</naissance>
+<sexe>M</sexe>
+</patient>
+<patient>
+<dossier>9</dossier>
+<nom>Béchard</nom>
+<prénom>Marc</prénom>
+<naissance>8 août 1980</naissance>
+<sexe>M</sexe>
+</patient>
+<patient>
+<dossier>10</dossier>
+<nom>Chartrand</nom>
+<prénom>Mario</prénom>
+<naissance>23 juillet 1947</naissance>
+<sexe>M</sexe>
+</patient>
+</listePatients>
